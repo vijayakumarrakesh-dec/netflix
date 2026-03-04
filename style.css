@@ -32,7 +32,7 @@ height:100%;
 object-fit:cover;
 top:0;
 left:0;
-filter:brightness(60%);
+filter:brightness(45%);
 }
 
 .hero::after{
@@ -46,14 +46,14 @@ background:linear-gradient(
 to top,
 rgba(20,20,20,1) 10%,
 rgba(20,20,20,0.8) 30%,
-rgba(20,20,20,0.4) 60%,
-rgba(20,20,20,0.1) 100%
+rgba(20,20,20,0.5) 60%,
+rgba(20,20,20,0.2) 100%
 );
 }
 
 .hero-content{
 position:relative;
-max-width:550px;
+max-width:600px;
 }
 
 .original{
@@ -65,17 +65,19 @@ margin-bottom:10px;
 
 .hero h1{
 font-family:'Bebas Neue', sans-serif;
-font-size:70px;
-letter-spacing:3px;
+font-size:80px;
+letter-spacing:4px;
 margin-bottom:10px;
-text-shadow:0 4px 20px rgba(0,0,0,0.8);
+text-shadow:0 4px 20px rgba(0,0,0,0.9);
 }
 
 .hero p{
-font-size:18px;
-line-height:1.5;
-color:#e5e5e5;
-text-shadow:0 2px 10px rgba(0,0,0,0.8);
+font-size:20px;
+line-height:1.6;
+color:white;
+font-weight:500;
+text-shadow:0 4px 15px rgba(0,0,0,0.9);
+max-width:600px;
 }
 
 .row-section{
@@ -105,12 +107,13 @@ box-shadow:0 15px 40px rgba(0,0,0,0.8);
 
 .card-title{
 position:absolute;
-bottom:10px;
-left:10px;
-background:rgba(0,0,0,0.7);
-padding:5px 10px;
-font-size:13px;
+bottom:8px;
+left:8px;
+background:rgba(0,0,0,0.55);
+padding:3px 8px;
+font-size:12px;
 border-radius:4px;
+max-width:80%;
 }
 
 #viewer{
